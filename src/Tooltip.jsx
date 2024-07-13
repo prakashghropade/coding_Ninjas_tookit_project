@@ -4,7 +4,7 @@ import { useState } from 'react';
 const Tooltip = (props) => {
 
 
-  const [ishovering, setIshovering] = useState(true);
+  const [ishovering, setIshovering] = useState(false);
 
   return (
 
