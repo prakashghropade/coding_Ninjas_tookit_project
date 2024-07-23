@@ -1,10 +1,9 @@
-import React from 'react'
 import { useState } from 'react';
 
-const Tooltip = (props) => {
-
-
-  const [ishovering, setIshovering] = useState(false);
+const Tooltip = ({position, onclick}) => {
+  
+const [ishovering, setIshovering] = useState(false);
+ 
 
   return (
 
@@ -12,20 +11,23 @@ const Tooltip = (props) => {
       <div className='main'>
 
         <div className='box'>
-          <div className='tooltiptext' onMouseLeave={() => setIshovering(false)} onMouseEnter={() => setIshovering(true)}>
+          <div className='innerbox'>
+
+          <div className='tooltiptext ' onMouseLeave={() => setIshovering(false)} onMouseEnter={() => setIshovering(true)}>
             <p> Hover over me!</p>
           </div>
 
           {
             ishovering && <>
-              <div className={props.value} >
+              <div className=  {position} >
                 <p> Thanks for hovering! I'am tooltip</p>
               </div>
             </>
-
           }
         </div>
 
+        <button className='button' onClick={onclick}>Change Position</button>
+        </div>
 
         <div>
           <h2>This is the Toolkit Project By the Prakash Ghorpade</h2>
