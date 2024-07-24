@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 import './App.css';
 import Tooltip from './Tooltip';
 
@@ -20,9 +20,6 @@ function App() {
       <div className="App">
         <Tooltip onclick={handlePosition} position={Position[textPostion]} />
       </div>
-
-   
-
     </>
   );
 }

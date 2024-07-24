@@ -1,7 +1,7 @@
 import { useState } from 'react';
 
 const Tooltip = ({position, onclick}) => {
-  
+
 const [ishovering, setIshovering] = useState(false);
  
 
@@ -27,12 +27,9 @@ const [ishovering, setIshovering] = useState(false);
         </div>
 
         <button className='button' onClick={onclick}>Change Position</button>
-        </div>
-
         <div>
-          <h2>This is the Toolkit Project By the Prakash Ghorpade</h2>
+        <h2>This is the Tooltip Project By the Prakash Ghorpade</h2></div>
         </div>
-
       </div>
     </>
 
