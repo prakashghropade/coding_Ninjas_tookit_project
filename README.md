@@ -14,7 +14,7 @@ Created a simple tooltip component On hovering of the button I should show a too
 ## Screens
 <p align="center">
 <img src="https://github.com/prakashghropade/coding_Ninjas_tookit_project/blob/main/first.png" height="300px" width="45%"/> &nbsp; &nbsp; &nbsp; &nbsp; 
-<img src="https://github.com/prakashghropade/coding_Ninjas_tookit_project/blob/main/second.png" width="45%"/> &nbsp; &nbsp; &nbsp; &nbsp;     
+<img src="https://github.com/prakashghropade/coding_Ninjas_tookit_project/blob/main/second.png" height="300px" width="45%"/> &nbsp; &nbsp; &nbsp; &nbsp;     
 </p>
 
 
